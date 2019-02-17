@@ -1,0 +1,24 @@
+{
+  "name": "currenttle",
+  "version": "1.0.0",
+  "description": "Pulls TLE data for specified satellites in orbit",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://AlexanderProschek:Alex145236987@github.com/AlexanderProschek/currentTLE.git"
+  },
+  "author": "Alexander Proschek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexanderProschek/currentTLE/issues"
+  },
+  "homepage": "https://github.com/AlexanderProschek/currentTLE#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0"
+  }
+}
