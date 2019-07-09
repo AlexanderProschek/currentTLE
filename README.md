@@ -1,8 +1,11 @@
-# currentTLE
-Grabs the current TLE from any range of satellites in orbit
-
-##How to use
-To setup the application, run
+1. Setup by running
 ```
-$ npm install
+pip install -r requirements.txt
+```
+
+2. Make a copy of the .env-default file named .env and fill out the fields
+
+3. Start the script by running
+```
+python app.py
 ```
