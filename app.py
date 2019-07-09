@@ -8,7 +8,9 @@ load_dotenv('./.env')
 
 st = SpaceTrackClient(os.getenv('EMAIL'), os.getenv('PASSWD'))
 
-output = st.tle_latest(norad_cat_id=[25544, 41335], ordinal=1, format='tle')
+satelites = os.getenv('SATS').split(' ')
+
+output = st.tle_latest(norad_cat_id=satelites, ordinal=1, format='tle')
 
 file = open('output.tle', 'w')
 file.write(output)
